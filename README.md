@@ -1,10 +1,10 @@
-Preenchedor de Excel
+# Preenchedor de Excel
 
 Aplicação desktop desenvolvida em Python para gerar automaticamente planilhas Excel a partir de arquivos `.txt`.
 
 ---
 
-Sobre o projeto
+## Sobre o projeto
 
 Este projeto foi criado com o objetivo de automatizar a criação de planilhas Excel a partir de dados simples, eliminando a necessidade de preenchimento manual.
 
@@ -14,58 +14,58 @@ O usuário seleciona três arquivos de texto:
 * idades
 * cidades
 
-E o sistema gera um arquivo .xlsx estruturado automaticamente.
+E o sistema gera um arquivo `.xlsx` estruturado automaticamente.
 
 ---
 
-Interface
+## Interface
 
-
+Interface do app:
 
 ![Interface do app](interface.png)
 
 A aplicação possui uma interface gráfica simples e intuitiva, construída com CustomTkinter.
 
-Funcionalidades:
+### Funcionalidades:
 
-* Seleção de arquivos .txt
+* Seleção de arquivos `.txt`
 * Validação de dados
 * Geração automática de planilha Excel
 * Abertura automática do arquivo gerado
 
 ---
 
-Estrutura dos arquivos de entrada
+## Estrutura dos arquivos de entrada
 
-Cada arquivo .txt deve conter um valor por linha:
+Cada arquivo `.txt` deve conter **um valor por linha**:
 
-nomes.txt
+### nomes.txt
 
----
+```txt
 João
 Maria
 Carlos
----
+```
 
-idades.txt
+### idades.txt
 
----
+```txt
 20
 25
 30
----
+```
 
-cidades.txt
+### cidades.txt
 
----
+```txt
 São Paulo
 Rio de Janeiro
 Belo Horizonte
----
+```
 
 ---
 
-Saída gerada
+## Saída gerada
 
 O programa cria uma planilha Excel com a seguinte estrutura:
 
@@ -77,7 +77,7 @@ O programa cria uma planilha Excel com a seguinte estrutura:
 
 ---
 
-Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * Python
 * Pandas
@@ -85,39 +85,51 @@ Tecnologias utilizadas
 
 ---
 
-Como executar
+## Como executar
 
-1. Clone o repositório
+### 1. Clone o repositório
+
+```bash
 git clone https://github.com/seu-usuario/preenchedor-excel.git
+```
 
-2. Acesse a pasta
+### 2. Acesse a pasta
+
+```bash
 cd preenchedor-excel
+```
 
-3. Instale as dependências
+### 3. Instale as dependências
+
+```bash
 pip install pandas customtkinter openpyxl
+```
 
-4. Execute o programa
+### 4. Execute o programa
+
+```bash
 python main.py
+```
 
 ---
 
-Funcionalidades implementadas
+## Funcionalidades implementadas
 
-✔ Interface gráfica
-✔ Leitura de arquivos .txt
-✔ Validação de dados
-✔ Geração de Excel com `pandas`
-✔ Tratamento de erros
-✔ Abertura automática do arquivo gerado
+* ✔ Interface gráfica
+* ✔ Leitura de arquivos `.txt`
+* ✔ Validação de dados
+* ✔ Geração de Excel com `pandas`
+* ✔ Tratamento de erros
+* ✔ Abertura automática do arquivo gerado
 
 ---
 
-Licença
+## Licença
 
 Este projeto é de uso livre para fins de estudo e aprimoramento.
 
 ---
 
-Autor
+## Autor
 
-Desenvolvido por BeezDev
+Desenvolvido por **BeezDev**
