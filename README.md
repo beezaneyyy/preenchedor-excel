@@ -19,6 +19,9 @@ E o sistema gera um arquivo .xlsx estruturado automaticamente.
 ---
 
 Interface
+
+
+
 ![Interface do app](interface.png)
 
 A aplicação possui uma interface gráfica simples e intuitiva, construída com CustomTkinter.
